@@ -1,0 +1,216 @@
+* {
+  font-family: "Potta One", cursive;
+}
+
+html {
+  background-image: url(imagenes/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  margin: 10px;
+}
+
+.contenedor {
+  position: absolute;
+  height: 500px;
+  width: 1500px;
+}
+
+.circulo {
+  height: 250px;
+  width: 250px;
+  top: 125px;
+  left: 50px;
+  position: relative;
+  right: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.objeto1 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  top: 100px;
+  left: -20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.forma-MAS1 {
+  top: 85px;
+  left: 350px;
+  height: 125px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid white;
+  -moz-border-radius: 0px 125px 0 0;
+  -webkit-border-radius: 125px 125px 0 0;
+}
+
+.forma-MAS2 {
+  top: 80px;
+  left: 605px;
+  height: 125px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid white;
+  -moz-border-radius: 0px 125px 0 0;
+  -webkit-border-radius: 0 0 125px 125px;
+}
+
+.forma-MAS3 {
+  top: -185px;
+  left: 860px;
+  height: 125px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid white;
+  -moz-border-radius: 0px 125px 0 0;
+  -webkit-border-radius: 125px 125px 0 0;
+}
+
+.forma-MAS4 {
+  top: -190px;
+  left: 1115px;
+  height: 125px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid white;
+  -moz-border-radius: 0px 125px 0 0;
+  -webkit-border-radius: 0 0 125px 125px;
+}
+
+.objeto2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  top: -230px;
+  left: 330px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: +1;
+}
+
+.ejeX {
+  background-color: white;
+  position: relative;
+  left: 350px;
+  top: -325px;
+  height: 5px;
+  width: 1150px;
+}
+
+.ejeY {
+  background-color: white;
+  position: absolute;
+  left: 355px;
+  top: 75px;
+  height: 400px;
+  width: 5px;
+  z-index: 2;
+}
+
+form {
+  position: absolute;
+  top: 500px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+button {
+  position: relative;
+  top: -25px;
+}
+
+footer {
+  position: relative;
+  top: 25px;
+}
+
+.contadorY1 {
+  background-color: white;
+  position: absolute;
+  top: 175px;
+  left: 350px;
+  height: 5px;
+  width: 20px;
+}
+
+.contadorY2 {
+  background-color: white;
+  position: absolute;
+  top: 415px;
+  left: 350px;
+  height: 5px;
+  width: 20px;
+}
+
+.contadorX1 {
+  background-color: white;
+  position: absolute;
+  top: -7.5px;
+  left: 127.5px;
+  height: 20px;
+  width: 5px;
+}
+
+.contadorX2 {
+  background-color: white;
+  position: absolute;
+  top: -7.5px;
+  left: 380px;
+  height: 20px;
+  width: 5px;
+}
+
+.contadorX3 {
+  background-color: white;
+  position: absolute;
+  top: -7.5px;
+  left: 632.5px;
+  height: 20px;
+  width: 5px;
+}
+
+.contadorX4 {
+  background-color: white;
+  position: absolute;
+  top: -7.5px;
+  left: 885px;
+  height: 20px;
+  width: 5px;
+}
+
+.textoAmplitudX1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 18px;
+  color: white;
+}
+
+.textoAmplitudY1 {
+  position: relative;
+  top: -32px;
+  left: 24px;
+  font-size: 18px;
+  color: white;
+}
+
+.textoAmplitudY2 {
+  position: relative;
+  top: -32px;
+  left: 24px;
+  font-size: 18px;
+  color: white;
+}

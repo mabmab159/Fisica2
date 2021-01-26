@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Fisica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="programacion.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><input type="button" value="Menu Principal"></a>
+    </header>
+    <main>  
+        <div class="contenedor">
+            <div class="circulo">
+                <div class="objeto1" id="objeto1"></div>
+            </div>
+        </div>
+        <div class="objeto2" id="objeto2"></div>
+        <div class="forma-MAS1">
+            <div id="limpiar-MAS-arriba"></div>
+        </div>
+        <div class="forma-MAS2">
+            <div id="limpiar-MAS-abajo"></div>
+        </div>
+        <div class="forma-MAS3">
+            <div id="limpiar-MAS-arriba"></div>
+        </div>
+        <div class="forma-MAS4">
+            <div id="limpiar-MAS-abajo"></div>
+        </div>
+        <div class="ejeX">
+            <div class="contadorX1">
+                <p id="textoAmplitudX1" class="textoAmplitudX1"></p>
+            </div>
+            <div class="contadorX2">
+                <p id="textoAmplitudX2" class="textoAmplitudX2"></p>
+            </div>
+            <div class="contadorX3">
+                <p id="textoAmplitudX3" class="textoAmplitudX3"></p>
+            </div>
+            <div class="contadorX4">
+                <p id="textoAmplitudX4" class="textoAmplitudX4"></p>
+            </div>
+        </div>
+        <div class="ejeY">
+        </div>
+        <div class="contadorY1">
+            <p id="textoAmplitudY1" class="textoAmplitudY1"></p>
+        </div>
+        <div class="contadorY2">
+            <p id="textoAmplitudY2" class="textoAmplitudY2"></p>
+        </div>
+        <div class="objeto3" id="objeto3"></div>
+        <div>
+            <form action="formulario">
+                <label for="amplitud">
+                    <span>Ingrese amplitud:</span>
+                    <input type="number" name="amplitud" id="amplitud" required>
+                </label>
+                <br>
+                <label for="frecuencia_angular">
+                    <span>Ingrese la frecuencia angular:</span>
+                    <input type="number" name="frecuencia_angular" id="frecuencia_angular" required>
+                </label>
+                <br>
+                <label for="tiempo">
+                    <span>Ingrese el tiempo a calcular:</span>
+                    <input type="number" name="tiempo" id="tiempo">
+                </label>
+            </form>
+            <button class="boton" id="botonPrueba" onclick="prueba()" >Ejecutar Simulación</button>
+        </div>
+        <p id="textoPosicion"></p>
+        <p id="textoVelocidad"></p>
+        <p id="textoAceleracion"></p>
+    </main>
+    <footer> 
+        <p>Realizado por MabMab^^</p>
+        <p>Curso Fisica 2</p>
+        <p>Profesor: JOSUE ISAC CARRILLO ESPINOZA</p>
+    </footer>
+</body>
+</html>
